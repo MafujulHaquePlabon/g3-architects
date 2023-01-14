@@ -309,10 +309,27 @@ img {
   width: 75%;
   gap: 155px;
   align-items: center;
+  margin-bottom: 170px;
 }
 .sponspors_items img {
-    -webkit-filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
+}
+footer p {
+    width: 75%;
+    display: flex;
+    align-items: center;
+  font-family: "Work Sans";
+  height: 100px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+ justify-content: center;
+  background: #fff4e7;
+  border-radius: 8px;
+  color: #424242;
+  margin-bottom: 216px;
 }
 /* ---------------------------------------------------------------------
 ------------------------Media Query for mobile device------------------- */
@@ -331,7 +348,7 @@ img {
   }
   .banner h1 {
     font-size: 35px;
-  }
+}
   .features_container {
     flex-direction: column;
   }
@@ -362,6 +379,7 @@ img {
   }
   .icon_container {
     grid-template-columns: repeat(1, 1fr);
+    margin-bottom: 50px;
   }
   .icon {
     margin-bottom: 15px;
@@ -369,13 +387,18 @@ img {
   .icon_above_text > .p {
     margin-bottom: 50px;
   }
+
   .sponspors_items {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     justify-content: center;
-    
+    margin-bottom: 80px;
+    gap: 30px;
   }
-  .sponspors_items img{
-      width: 75%;
+  .sponspors_items img {
+    width: 75%;
+  }
+  footer p{
+      margin-bottom: 50px;
   }
 }
