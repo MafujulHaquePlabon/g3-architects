@@ -43,3 +43,20 @@ top: 50px;
   background-color: rgb(226, 224, 224);
   transition: 0.2s ;
 }
+
+/* ---------------------------------------------------------------------
+------------------------Media Query for mobile device------------------- */
+@media screen and (max-width:576px){
+    .navbar{
+        flex-direction: column;
+    }
+    .navbar>h1{
+        justify-content: center;
+        font-size: 35px;
+    }
+    .navbar>ul{
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 10px;
+    }
+}
