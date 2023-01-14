@@ -1,0 +1,45 @@
+/* ------------------------------------------------------
+----------------Cascading Style Sheet-------------------- */
+*{
+    box-sizing: content-box;
+    margin: 0 auto;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+.navbar>h1{
+font-family: 'Work Sans';
+font-style: normal;
+font-weight:700;
+font-size: 45px;
+line-height: 53px;
+color: #131313;
+top: 50px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+
+}
+.navbar>ul{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    top: 63px;
+}
+.navbar>ul>li{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    margin-right: 35px;
+    
+}
+.navbar>ul>li>a{
+    color: #424242;
+}
+.navbar>ul>li>:hover{
+  background-color: rgb(226, 224, 224);
+  transition: 0.2s ;
+}
