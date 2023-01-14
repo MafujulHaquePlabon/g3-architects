@@ -122,6 +122,7 @@ img {
 }
 .features_text h2 > .span2 {
   color: #131313;
+  font-weight: 500;
 }
 .features_text h2 > .span3 {
   color: #ff900e;
