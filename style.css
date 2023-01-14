@@ -13,6 +13,7 @@ img {
 }
 .nav_plus_banner {
   background-color: rgba(255, 144, 14, 0.1);
+  width: 100%;
 }
 .navbar > h1 {
   font-family: "Work Sans";
@@ -231,10 +232,9 @@ img {
   margin-top: 130px;
   margin-bottom: 24px;
   width: 75%;
-  
 }
 
-.icon_above_text>.p {
+.icon_above_text > .p {
   font-family: "Work Sans";
   font-style: normal;
   font-weight: 400;
@@ -242,15 +242,14 @@ img {
   margin-bottom: 100px;
   color: #727272;
   width: 75%;
-  
 }
-.icon p{
- font-family: 'Work Sans';
-font-style: normal;
-font-weight: 600;
-font-size: 20px;
-color: #727272;
-margin-top: 5px;
+.icon p {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  color: #727272;
+  margin-top: 5px;
 }
 .icon {
   border: 1px solid #ff900e;
@@ -267,23 +266,54 @@ margin-top: 5px;
   height: 45.22px;
   margin-bottom: 10px;
 }
-.hover1:hover{
-   transform: scale(1.1);
-   transition: transform 0.5s;
+.hover1:hover {
+  transform: scale(1.1);
+  transition: transform 0.5s;
 }
-.hover2:hover{
-   transform: scale(1.1);
-   transition: transform 0.5s;
+.hover2:hover {
+  transform: scale(1.1);
+  transition: transform 0.5s;
 }
-.hover3:hover{
-   transform: scale(1.1);
-   transition: transform 0.5s;
+.hover3:hover {
+  transform: scale(1.1);
+  transition: transform 0.5s;
 }
-.hover4:hover{
-   transform: scale(1.1);
-   transition: transform 0.5s;
+.hover4:hover {
+  transform: scale(1.1);
+  transition: transform 0.5s;
 }
-
+.sponspors_header {
+  width: 75%;
+}
+.sponspors_header h1 {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  color: #131313;
+  margin-bottom: 24px;
+}
+.sponspors_header p {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  margin-bottom: 100px;
+  color: #727272;
+  margin-bottom: 50px;
+}
+.sponspors_items {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  justify-content: center;
+  width: 75%;
+  gap: 155px;
+  align-items: center;
+}
+.sponspors_items img {
+    -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
 /* ---------------------------------------------------------------------
 ------------------------Media Query for mobile device------------------- */
 @media screen and (max-width: 576px) {
@@ -300,7 +330,7 @@ margin-top: 5px;
     margin-top: 10px;
   }
   .banner h1 {
-    font-size: 40px;
+    font-size: 35px;
   }
   .features_container {
     flex-direction: column;
@@ -330,13 +360,22 @@ margin-top: 5px;
   .architect_right button p {
     font-size: 13px;
   }
-  .icon_container{
-      grid-template-columns: repeat(1,1fr);
+  .icon_container {
+    grid-template-columns: repeat(1, 1fr);
   }
-  .icon{
+  .icon {
     margin-bottom: 15px;
   }
-  .icon_above_text>.p{
-      margin-bottom: 50px;
+  .icon_above_text > .p {
+    margin-bottom: 50px;
+  }
+  .sponspors_items {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+    
+  }
+  .sponspors_items img{
+      width: 75%;
   }
 }
