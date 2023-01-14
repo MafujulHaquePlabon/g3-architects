@@ -1,62 +1,112 @@
 /* ------------------------------------------------------
 ----------------Cascading Style Sheet-------------------- */
-*{
-    box-sizing: content-box;
-    margin: 0 auto;
-    padding: 0;
-    list-style-type: none;
-    text-decoration: none;
+* {
+  box-sizing: content-box;
+  margin: 0 auto;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
 }
-.navbar>h1{
-font-family: 'Work Sans';
-font-style: normal;
-font-weight:700;
-font-size: 45px;
-line-height: 53px;
-color: #131313;
-top: 50px;
+img{
+    width: 100%;
 }
-.navbar{
-    display: flex;
-    justify-content: space-around;
-
+.nav_plus_banner{
+  background-color: rgba(255, 144, 14, 0.1);
 }
-.navbar>ul{
-    display: flex;
-    justify-content:center;
-    align-items: center;
-    top: 63px;
+.navbar > h1 {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 53px;
+  color: #131313;
+  top: 50px;
 }
-.navbar>ul>li{
-    font-family: 'Work Sans';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 26px;
-    margin-right: 35px;
-    
+.navbar {
+  display: flex;
+  justify-content: space-around;
 }
-.navbar>ul>li>a{
-    color: #424242;
+.navbar > ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 63px;
 }
-.navbar>ul>li>:hover{
+.navbar > ul > li {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  margin-right: 35px;
+}
+.navbar > ul > li > a {
+  color: #424242;
+}
+.navbar > ul > li > :hover {
   background-color: rgb(226, 224, 224);
-  transition: 0.2s ;
+  transition: 0.2s;
+}
+
+.banner {
+  margin-top: 116px;
+}
+.banner h1 {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 75px;
+  text-align: center;
+  margin-bottom: 33px;
+}
+.banner p {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  margin-bottom: 33px;
+}
+.banner button {
+  background: #ff900e;
+  border-radius: 8px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  padding: 20px 25px;
+  color: #ffffff;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  border: none;
+  margin-bottom: 50px;
+}
+.banner img{
+width: 75%;
+display: flex;
+justify-content: center;
+padding-bottom: 45px;
 }
 
 /* ---------------------------------------------------------------------
 ------------------------Media Query for mobile device------------------- */
-@media screen and (max-width:576px){
-    .navbar{
-        flex-direction: column;
-    }
-    .navbar>h1{
-        justify-content: center;
-        font-size: 35px;
-    }
-    .navbar>ul{
-        flex-direction: column;
-        justify-content: center;
-        margin-top: 10px;
-    }
+@media screen and (max-width: 576px) {
+  .navbar {
+    flex-direction: column;
+  }
+  .navbar > h1 {
+    justify-content: center;
+    font-size: 35px;
+  }
+  .navbar > ul {
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  .banner h1{
+    font-size: 44px;
+  }
 }
