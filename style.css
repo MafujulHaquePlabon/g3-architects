@@ -314,6 +314,9 @@ img {
   align-items: center;
   margin-bottom: 170px;
 }
+.sponspors_header h1,p{
+  text-align: center;
+}
 .sponspors_items img {
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
@@ -413,7 +416,7 @@ footer p {
   .features_container {
     flex-direction: column;
   }
-  .features_text h2,.contact_title {
+  .features_text h2,.contact_title,.sponspors_header h1,.icon_above_text h2 {
     font-size: 30px;
   }
   .features_img {
@@ -447,8 +450,12 @@ footer p {
   }
   .icon_above_text > .p {
     margin-bottom: 50px;
+    text-align: center;
   }
-
+  .icon_above_text > h2 {
+    text-align: center;
+  }
+  
   .sponspors_items {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
