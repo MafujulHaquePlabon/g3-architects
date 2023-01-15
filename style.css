@@ -26,6 +26,8 @@ img {
 }
 .navbar {
   display: flex;
+  padding-top: 50px;
+  align-items: center;
   justify-content: space-around;
 }
 .navbar > ul {
@@ -182,6 +184,12 @@ img {
 .architect_shadow h5 {
   margin-bottom: 10px;
 }
+/* .architect_shadow p{
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+} */
+
 .architect_left {
   width: 50%;
 }
@@ -437,6 +445,7 @@ footer p {
     padding: 5px 12px;
     left: 45px;
     bottom: -90px;
+    justify-content: center;
   }
   .architect_right button p {
     font-size: 13px;
@@ -479,6 +488,9 @@ footer p {
     margin-bottom: 20px;
     border-radius: 8px;
     border: 2px solid gray;
+  }
+  .contact_title{
+    text-align: center;
   }
   .contact_form{
     padding: 30px 15px;
