@@ -314,9 +314,9 @@ img {
   align-items: center;
   margin-bottom: 170px;
 }
-.sponspors_header h1,p{
+ .sponspors_header>div{
   text-align: center;
-}
+} 
 .sponspors_items img {
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
